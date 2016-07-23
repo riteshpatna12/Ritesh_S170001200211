@@ -1,0 +1,149 @@
+     	
+	<!DOCTYPE HTML>
+   <HTML>
+       <HEAD>
+          <STYLE>
+             body{
+                  background-color:#FFEBCD;
+             } 
+             .autostyle2{
+                   color:red;
+                   font-size:20px;
+                   text-align:center;                               
+             } 
+		#button{
+				Margin-left:50px;
+				}
+          </STYLE>
+       </HEAD> 
+       <BODY bgcolor="#FFEBCD">
+            <FORM action="registration.html">
+              <TABLE>
+                   <TR class="autostyle2">
+                      <TD colspan="4">ONLINE FOOD ORDER</TD></TR> 
+                   <TR>
+                       <TD wIDTH="100%" COLSPAN ="4"></TD>  
+                   </TR>
+                   <TR>
+                       <TD><LABEL FOR="name">Name:</LABEL></TD>
+                       <TD><INPUT type="text"
+                                   name="username" ID="name" placeholder="Enter your Name"                                         requried></TD>   
+                   </TR>
+                     
+                   <TR>
+                       <TD><LABEL for="email">email ID:</LABEL></TD>
+                       <TD><INPUT type="email"
+                                      name="usermail" ID="email" placeholder="Enter your email ID" requried></TD></TR>
+                   <TR>
+                       <TD><LABEL for="date">Date:</LABEL></TD>
+                       <TD><INPUT type="date" name="date" placeholder="Mention Date" requried>
+                   </TR>
+                   <TR>
+                       <TD><LABEL for="number">Contact Number:</Label></TD>
+                       <TD><INPUT type="tel" name="usrtel" placeholder="Enter your Phone number" requried></TD></TR>
+                   <TR>
+                       <TD><LABEL for="food">Select Food:</LABEL></TD>
+                       <TD><LABEL for="nonveg">Non-Vegetarian</LABEL><INPUT type="Radio" name="food" ID="nonveg">"> 
+							<LABEL for="veg"> Vegetarian<INPUT type="Radio"  name="food" ID="veg" </TD>					
+                   </TR>
+			    <TR>
+                    <TD><LABEL for="restro">Select Restaurent:</LABEL></TD>
+				 <TD>
+				  <Select>
+					<OPTION value="opt1">SELECT YOUR RESTAURENTS</OPTION> 	
+                        <OPTION value="opt2">La Figa</OPTION> 	 						        					<OPTION value="opt3">Benihana</OPTION>
+					<OPTION value="opt4">Gallipoli</OPTION>
+                       	<OPTION value="opt5">Kings Road SteakHouse</OPTION>	
+				</SELECT> 
+				</TD>
+				</TR>
+				<TR>
+				<TD><LABEL for="drinks">Drinks:</LABEL>
+				</TD>
+				<TD>
+				<SELECT>
+					<OPTION value="opt6">Select Your Drink</OPTION>
+					<OPTION value="opt7">Cappuccino</OPTION>
+					<OPTION value="opt8">Caffelatte</OPTION>
+				</SELECT>
+				</TD>
+				</TR>
+				<TR>
+				<TD><LABEL for="soups">Soups:</LABEL>
+				</TD>
+				<TD>
+				<SELECT>
+					<OPTION value="opt9">Select The Soup Of Your Choice</OPTION>
+					<OPTION value="opt10">Minestrone</OPTION>
+					<OPTION value="opt11">Fonduta</OPTION>
+					<OPTION value="opt12">Pesta e fagioli</OPTION>
+				</SELECT>
+				</TD>
+				</TR>
+				<TR>
+				<TD><LABEL for="dishes">Dishes:</LABEL>
+				</TD>
+				<TD>
+				<SELECT>
+					<OPTION value="opt13">Select The Dishes Of Your Choice</OPTION>
+					<OPTGROUP label="Italian">
+					<OPTION value="opt14">Pasta</OPTION>
+					<OPTION value="opt15">Fish</OPTION>
+					<OPTION value="opt16">Rice</OPTION>
+					</OPTGROUP>
+					<OPTGROUP label="Chinese">
+					<OPTION value="opt17">Chowmin</OPTION>
+					<OPTION value="opt18">Manchurian</OPTION>
+					<OPTION value="opt19">Water Chessnut Cake</OPTION>
+					</OPTGROUP>
+				</SELECT>
+				</TD>
+				</TR>
+				<TR>
+				<TD><LABEL for="orderfor">Order For:</LABEL>
+				</TD>
+				<TD><LABEL for="pickup">Take Away:</LABEL>
+				    <INPUT type="radio" name="pickup" ID="pickup">
+				    <LABEL for="home">Home Delivery:</LABEL>
+				    <INPUT type="radio" name="pickup" ID="home">
+                   </TD>
+                   </TR>
+				<TR>
+				<TD><label FOR="orderfor">Address</LABEL></TD>
+				<TD>
+					<TEXTAREA row="3" cols="16" ID="orderfor">
+					Enter Your Address Here
+				</TEXTAREA>
+				</TD>
+				</TR>
+				<TR>
+				<TD>
+					<label FOR="state">State</LABEL>
+				</TD>	
+				<TD>
+					<INPUT LIST="stat" name="stat" ID="state">
+					<DATALIST ID ="stat">
+						<option value="ALABAMA">
+						<option value="CALIFORNIA">
+						<option value="DELAWARE">
+						<option value="florida">
+						<option value="Hawaii">
+
+					</DATALIST>
+					<BR>
+					</TD>
+				</TR>
+				<TR>
+				<TD>
+					<button ID="button" type="submit"><P>SUBMIT</P></BUTTON>
+				</TD>
+
+				<TD>
+					<button ID="button" type="reset"><P>RESET</P></BUTTON>
+				</TD>
+				</TR>
+
+       </Table>  
+			</form>
+		</body>
+     </HTML>	
