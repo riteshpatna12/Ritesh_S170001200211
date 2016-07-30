@@ -1,0 +1,35 @@
+
+#maincontainer{
+				position:relative;width:100%;margin-top:0px;margin-bottom:0px;
+}
+
+#homewebpg {
+				background-color:orange;
+          }
+			background-color:orange;
+    }
+#homestyle {
+		position:left;
+		padding:5px 1px 5px 0px;
+		border:0px solid;
+		width:960px;
+		height:80px;
+		background-color:red;
+		background-position:top left;
+}
+
+#topnav {
+		float:left;word-spacing:5px;font-size:90%;
+		border:1px solid;
+		width:960px;
+		height:20px;
+		background-color:lightblue;
+		padding-left:6px;padding-top:6px;white-space:no wrap;
+		text-align:left;
+}
+
+h3{
+	color:darkgreen;
+	font-family:aligerian;
+	position:absolute;right:130px;top:320px;
+}
