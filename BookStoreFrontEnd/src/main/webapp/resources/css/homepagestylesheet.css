@@ -1,0 +1,22 @@
+
+
+
+#homewebpg {
+				background-color:lightblue;
+          }
+			
+    #topnav {
+		float:left;word-spacing:5px;font-size:90%;
+		border:1px solid;
+		width:960px;
+		height:20px;
+		background-color:green;
+		padding-left:6px;padding-top:6px;white-space:no wrap;
+		text-align:left;
+}
+
+h3{
+	color:darkgreen;
+	font-family:aligerian;
+	position:absolute;right:130px;top:320px;
+}
