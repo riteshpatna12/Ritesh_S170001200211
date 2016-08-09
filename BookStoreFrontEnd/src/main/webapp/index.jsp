@@ -14,11 +14,11 @@
  		 .carousel-inner > .item > img,
  		 .carousel-inner > .item > a > img 
  		 {
-		      width: 70%;
+		      width: 90%;
    		      margin: auto;
  		 }
  									
-		 .dropdown-submenu {
+		/*  .dropdown-submenu {
              position: relative;
          }
 
@@ -26,17 +26,17 @@
              top: 0;
              left: 100%;
              margin-top: -1px;
-         }
+         } */
   </style>
   
   		
 
 </head>
-<%-- 		<jsp:include page="header.jsp"/> --%>
+		<jsp:include page="header.jsp"/> 
 <body>
 
 		 
-	<nav class="navbar navbar-inverse">
+	<!-- <nav class="navbar navbar-inverse">
   <div class="container-fluid">
   
     <div class="navbar-header" >
@@ -96,7 +96,7 @@
     
   </div>
   </div>
-</nav>  
+</nav>   -->
 
 
 	<div class="container">
@@ -104,48 +104,51 @@
    <div id="myCarousel" class="carousel-slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="resources\images\bookbank.jpg" data-slide-to="0" class="active"></li>
+      <li data-target="resources\images\booksislife.jpg" data-slide-to="1"></li>
+      <li data-target="resources\images\b1.jpg" data-slide-to="2"></li>
+      <li data-target="resources\images\b2.jpg" data-slide-to="3"></li>
+      <li data-target="resources\images\b3.jpg" data-slide-to="4"></li>
     </ol>    
 	
     <div class="carousel-inner" role="listbox">
 
       <div class="item active">
-        <img src="resources\images\bookbank.jpg" alt="Book is life." width="960" height="845">
-        <div class="carousel-caption">
-          <h3>Books</h3>
-          <p>Good Books are the best cure in the world.</p>
+        <img src="resources\images\bookbank.jpg" alt="Book is life." width="460" height="345">
+         <div>
+        
         </div>
       </div>
+      
+       <div class="item">
+        <img src="resources\images\booksislife.jpg" alt="Book is life." width="460" height="345">
+       <div>
+        
+        </div>
+      </div>
+      
+      
 
       <div class="item">
         <img src="resources\images\b1.jpg" alt="Life without limit" width="460" height="345">
-        <div class="carousel-caption">
-          <h3>Life Without Limit</h3>
-          <p>This is about a great Person.</p>
+         <div>
+       
         </div>
       </div>
     
       <div class="item">
         <img src="resources\images\b2.jpg" alt="the power of now" width="460" height="345">
-        <div class="carousel-caption">
-          <h3>The Power Of Now</h3>
-          <p>when you will try then will you get results.</p>
+         <div>
+        
         </div>
       </div>
 
-      <div class="item">
-        <img src="resources\images\Designpatterns.jpg" alt="Design Pattern" width="460" height="345">
-        <div class="carousel-caption">
-          <h3>Design Patterns</h3>
-          <p>GANG OF FOUR.</p>
+             
         </div>
       </div>
     </div>
 		
-		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+		 <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
     </a>
@@ -154,25 +157,39 @@
       <span class="sr-only">Next</span>
     </a>
        </div>
-	  </div>
-      <!--   <div>
-      <footer>
-         <p>Posted by: Ritesh Kumar</p>
-           <p>Contact information: <a href="vizronbookstore.com">vizronbookstore.com</a>.</p>
-      </footer>
-
-         <p><strong>Note:</strong> The footer tag is not supported in Internet Explorer 8 and earlier versions.</p>
-        </div> -->
+       
+       		 <div class="row">
+    <div class="col-md-3">
+      <a href="resources\images\Hibernate.jpg" class="category">
         
-        <script>
-$(document).ready(function(){
-  $('.dropdown-submenu a.test').on("click", function(e){
-    $(this).next('ul').toggle();
-    e.stopPropagation();
-    e.preventDefault();
-  });
-});
-
-</script>
+        <img src="resources\images\Hibernate.jpg" alt="Pulpit Rock" style="width:250px;height:250px">
+      </a>
+    </div>
+    <div class="col-md-3">
+      <a href="resources\images\Javabeanscover.jpg" class="category">
+       
+        <img src="resources\images\Javabeanscover.jpg" alt="Moustiers Sainte Marie" style="width:250px;height:250px">
+      </a>
+    </div>
+    <div class="col-md-3">
+      <a href="resources\images\JavaProgramming.jpg" class="category">
+       
+        <img src="resources\images\JavaProgramming.jpg" alt="Cinque Terre" style="width:250px;height:250px">
+      </a>
+    </div>
+    	 <div class="col-md-3">
+      <a href="resources\images\Designpatterns.jpg" class="category">
+       
+        <img src="resources\images\Designpatterns.jpg" alt="Moustiers Sainte Marie" style="width:250px;height:250px">
+      </a>
+    </div>
+    
+  </div>
+       
+	  </div>
+     
+        <jsp:include page="footer.jsp"/> 
+       
 	  </body>
+	  		
 </html>

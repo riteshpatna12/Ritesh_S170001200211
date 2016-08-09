@@ -2,6 +2,8 @@
  <html>
   <head>
   </head>
+  
+  		<jsp:include page="header.jsp"/> 
    
 	<body style="background-color:powderblue;">
 		<center>

@@ -9,6 +9,7 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   
 </head>
+	<jsp:include page="header.jsp"/> 
 <body>
 
 <div class="container-fluid bg-grey">
