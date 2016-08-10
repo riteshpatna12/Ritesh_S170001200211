@@ -3,12 +3,16 @@ package com.vizron.bookstore.model;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
+import org.springframework.stereotype.Component;
+
 @Entity
 @Table
+@Component
 public class Supplier {
 	private String supplierId;
 	private String supplierName;
 	private String supplierAddress;
+	
 	public String getSupplierId() {
 		return supplierId;
 	}
