@@ -1,0 +1,13 @@
+com\vizron\bookshop\model\Supplier.class
+com\vizron\bookshop\model\Category.class
+com\vizron\bookshop\dao\UserDAO.class
+com\vizron\bookshop\model\User.class
+com\vizron\bookshop\dao\CategoryDAO.class
+com\vizron\bookshop\config\ApplicationContextConfig.class
+com\vizron\bookshop\model\Book.class
+com\vizron\bookshop\dao\CategoryDAOImpl.class
+com\vizron\bookshop\dao\SupplierDAOImpl.class
+com\vizron\bookshop\dao\BookDAOImpl.class
+com\vizron\bookshop\dao\UserDAOImpl.class
+com\vizron\bookshop\dao\BookDAO.class
+com\vizron\bookshop\dao\SupplierDAO.class
